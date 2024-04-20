@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Register page</title>
+        <meta name="viewport" content="width=device-width"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <style>
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+                height: 100vh; 
+                background-color: #f1f1f1;
+            }
+
+            input {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+            label {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+            select {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" id="signupForm">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender">
+                <option value="select">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="angel">Angel</option>
+            </select><br>
+
+            <label for="department">Department:</label><br>
+            <input type="text" id="department" name="department"><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+        <script src="home.js"></script>
+    </body>
+</html>
